@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fa0606;
+    height: 15vh;
+}
+
+header img{
+    width: 10vw;
+}
+
+nav {
+    background-color:  #fc6c0d;
+    padding: 0.5em;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Fundo do forms*/
+
+main{
+    background-image: url(assets/pexels-thiago-lazaro-2874979.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 110vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+/* Forms */
+
+#form {
+    margin-right: auto; 
+    margin-left: 80px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
+input[type="submit"] {
+    background-color: #fc6c0d;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+    height: 12vh;
+}
+
+footer img{
+    width: 2vw;
+}
+
+.zap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em;
+}
+
+.insta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.product {
+    margin-bottom: 20px;
+}
+
+table {
+    width:50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
