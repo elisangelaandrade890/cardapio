@@ -51,7 +51,7 @@ main{
     background-image: url(assets/images.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+
 }
 
 /* Main Fotos */
@@ -59,16 +59,17 @@ main{
 .burguers img{
     display: flex;
     flex-direction: row;
-    width: 25vw;
+    width: 15vw;
     border-radius: 8px;
     border: solid white;
 }
 
 .burguers{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
-    padding-top: 6em;    
+    padding-top: 6em;   
+    padding: 30px;
 }
 
 .cardBurguer{
@@ -81,6 +82,17 @@ main{
 
 }
 
+.coluna1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.coluna2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 h3{
     margin-top: 5px;
 }
@@ -119,13 +131,11 @@ a{
 footer {
     display: flex;
     flex-direction: column;
-    background-color: #333;
+    background-color: #fa0606;
     color: white;
     text-align: center;
     padding: 1em;
     bottom: 0;
-    width: 100%;
-    height: 12vh;
 }
 
 footer img{
