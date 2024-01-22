@@ -71,15 +71,11 @@ main {
 .tabela{
     margin-top: 50px;
     margin-left: 60px;
-    color: #d85b08;
+    color: #743308;
 }
 
 .tabela h2{
     color: white;
-}
-
-thead{
-
 }
 
 table {
@@ -91,7 +87,7 @@ table {
 }
 
 th, td {
-    border: 2px solid #d6181850;
+    border: 2px solid #700d0d50;
     padding: 8px;
     text-align: left;
     
@@ -149,4 +145,51 @@ footer img{
 a{
     text-decoration: none;
     color: rgb(253, 255, 254);
+}
+
+
+@media screen and (max-width: 768px){
+
+header img{
+    width: 30vw;
+}
+            
+main{
+        
+    height: 90vh;
+    background-image: url(assets/Fundo\ drinks\ responsivo.png);
+    background-position: right;
+}
+
+table{
+    margin-top: -16px;
+    width: 90%;
+}
+
+.tabela{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+
+}
+.tabela h2{
+    margin-block-start: 4em;
+    margin-block-end: 1em;
+}
+
+footer{
+    padding: 0;
+    height: 12vh;
+}
+
+footer img{
+    width: 5vw;
+}
+
+
 }

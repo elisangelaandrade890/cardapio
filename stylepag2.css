@@ -157,3 +157,69 @@ footer img{
 }
 
 
+@media screen and (max-width: 768px){
+
+header img{
+    width: 30vw;
+}
+        
+main{
+    display: flex;
+    justify-content: center;
+    background-image: none;
+    background-color: grey;
+    height: 160vh;
+}
+
+.coluna1{
+    display: flex;
+    flex-direction: column; 
+}
+
+.coluna2{
+    display: flex;
+    flex-direction: column;
+}
+
+.cardBurguer{
+    margin: 8px;
+}
+
+.cardBurguer img{
+    width: 40vw;   
+}
+
+h3{
+    margin-top: 3px;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
+h4{
+    display: none;
+}
+
+span{
+    font-size: 0.8rem;
+}
+
+.cardBurguer button{
+    height: 22px;
+    width: 40%;
+    font-size: 0.8rem;
+    margin-top: 2px;
+
+}
+
+footer{
+    padding: 0;
+    height: 12vh;
+}
+
+
+footer img{
+    width: 5vw;
+}
+
+
+}

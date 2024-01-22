@@ -139,41 +139,31 @@ a{
 }
 
 
+@media screen and (max-width: 768px){
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.product {
-    margin-bottom: 20px;
+header img{
+    width: 30vw;
+}
+    
+main{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    
+}
+#form {
+    
+    margin-right: 10%; 
+    margin-left: 10%;
+    border: 2px solid white;    
 }
 
-table {
-    width:50%;
-    border-collapse: collapse;
-    margin-top: 20px;
+footer{
+    padding-bottom: 0;
 }
 
-table, th, td {
-    border: 1px solid #ddd;
+footer img{
+    width: 5vw;
 }
 
-th, td {
-    padding: 15px;
-    text-align: left;
 }
