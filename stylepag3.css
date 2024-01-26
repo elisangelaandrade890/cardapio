@@ -66,20 +66,22 @@ body {
 main {
     text-align:  left;
     padding: 20px;
+    font-size: 20px;
 }
 
 .tabela{
     margin-top: 50px;
     margin-left: 60px;
-    color: #743308;
+    color: #df0000;
+
 }
 
 .tabela h2{
-    color: white;
+    color: #940000;
 }
 
 table {
-    width: 40%;
+    width: 50%;
     border-collapse: collapse;
     margin-top: 40px;
     border-radius: 10px;
@@ -87,20 +89,20 @@ table {
 }
 
 th, td {
-    border: 2px solid #700d0d50;
+    border: 2px solid #6100006b;
     padding: 8px;
     text-align: left;
     
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #ffffffe3;
 
 }
 
 tr:hover {
-    background-color: #eb650c5b;
-    color: white;
+    background-color:  #ffffffce;
+    color: rgb(0, 0, 0);
 }
 
 thead tr:hover {
