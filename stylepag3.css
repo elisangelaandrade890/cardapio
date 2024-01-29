@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -16,7 +16,9 @@ header {
     justify-content: space-evenly;
     align-items: center;
     background-color: #fa0606;
-    height: 15vh;
+    height: 22vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:gold;
 }
 
 header img{
@@ -39,6 +41,8 @@ nav ul {
 
 nav ul li {
     display: inline;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 nav a {
@@ -57,7 +61,7 @@ main{
 /* Tabela */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
 
@@ -66,18 +70,27 @@ body {
 main {
     text-align:  left;
     padding: 20px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .tabela{
     margin-top: 50px;
     margin-left: 60px;
     color: #df0000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
 .tabela h2{
-    color: #940000;
+    color: whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.tabela p{
+    color:midnightblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 table {
@@ -96,13 +109,25 @@ th, td {
 }
 
 th {
-    background-color: #ffffffe3;
+    background-color: #ffffe3;
 
 }
 
 tr:hover {
-    background-color:  #ffffffce;
+    background-color:  #ffffce;
     color: rgb(0, 0, 0);
+}
+
+button {
+    background-color: #df0000;
+    color: aquamarine;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 8px 12px;
+    align-content: center;
+    font-size: 16px ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 thead tr:hover {
