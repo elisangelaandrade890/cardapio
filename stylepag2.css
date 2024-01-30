@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    border:0;
+    border: 0;
 }
 
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -17,16 +17,16 @@ header {
     align-items: center;
     background-color: #fa0606;
     height: 22vh;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gold;
 }
 
-header img{
+header img {
     width: 10vw;
 }
 
 nav {
-    background-color:  #fc6c0d;
+    background-color: #fc6c0d;
     padding: 0.5em;
     text-align: center;
 }
@@ -49,7 +49,7 @@ nav a {
     font-weight: bold;
 }
 
-main{
+main {
     background-image: url(assets/images.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -58,7 +58,7 @@ main{
 
 /* Main Fotos */
 
-.burguers img{
+.burguers img {
     display: flex;
     flex-direction: row;
     width: 15vw;
@@ -66,15 +66,15 @@ main{
     border: solid white;
 }
 
-.burguers{
+.burguers {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding-top: 6em;   
+    padding-top: 6em;
     padding: 30px;
 }
 
-.cardBurguer{
+.cardBurguer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,29 +82,30 @@ main{
     color: rgb(243, 241, 241);
 }
 
-.coluna1{
+.coluna1 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.coluna2{
+.coluna2 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-h3, p{
+h3,
+p {
     margin-top: 2px;
     margin-bottom: 4px;
 }
 
-h4{
+h4 {
     font-size: 0.8rem;
     font-weight: 100;
 }
 
-.cardBurguer button{
+.cardBurguer button {
     background-color: #eb2113;
     height: 30px;
     border: none;
@@ -122,7 +123,7 @@ h4{
     transition: transform 0.3s ease-in-out;
 }
 
-a{
+a {
     text-decoration: none;
     color: rgb(253, 255, 254);
 }
@@ -139,24 +140,24 @@ footer {
     bottom: 0;
 }
 
-footer img{
+footer img {
     width: 2vw;
 }
 
-section.traco{
+section.traco {
     border-bottom: 0px solid rgb(240, 236, 236);
     margin: 0 auto;
     text-align: center;
     max-width: 1000px;
     padding: 10px 0;
-    
+
 }
 
-h3.nome-2chefs{
+h3.nome-2chefs {
     margin: -20px;
 }
 
-div.redes-sociais{
+div.redes-sociais {
     width: 50px;
     height: 50px;
     margin: 30px;
@@ -165,69 +166,69 @@ div.redes-sociais{
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 
-header img{
-    width: 30vw;
-}
-        
-main{
-    display: flex;
-    justify-content: center;
-    background-image: none;
-    background-color: rgba(99, 4, 4, 0.437);
-    height: 160vh;
-}
+    header img {
+        width: 30vw;
+    }
 
-.coluna1{
-    display: flex;
-    flex-direction: column; 
-}
+    main {
+        display: flex;
+        justify-content: center;
+        background-image: none;
+        background-color: rgba(99, 4, 4, 0.437);
+        height: 160vh;
+    }
 
-.coluna2{
-    display: flex;
-    flex-direction: column;
-}
+    .coluna1 {
+        display: flex;
+        flex-direction: column;
+    }
 
-.cardBurguer{
-    margin: 8px;
-}
+    .coluna2 {
+        display: flex;
+        flex-direction: column;
+    }
 
-.cardBurguer img{
-    width: 25vw;   
-}
+    .cardBurguer {
+        margin: 8px;
+    }
 
-h3{
-    margin-top: 3px;
-    font-size: 0.8rem;
-    font-weight: 800;
-}
+    .cardBurguer img {
+        width: 25vw;
+    }
 
-h4{
-    display: none;
-}
+    h3 {
+        margin-top: 3px;
+        font-size: 0.8rem;
+        font-weight: 800;
+    }
 
-span{
-    font-size: 0.8rem;
-}
+    h4 {
+        display: none;
+    }
 
-.cardBurguer button{
-    height: 22px;
-    width: 40%;
-    font-size: 0.8rem;
-    margin-top: 2px;
+    span {
+        font-size: 0.8rem;
+    }
 
-}
+    .cardBurguer button {
+        height: 22px;
+        width: 40%;
+        font-size: 0.8rem;
+        margin-top: 2px;
 
-footer{
-    padding: 0;
-    height: 12vh;
-}
+    }
+
+    footer {
+        padding: 0;
+        height: 12vh;
+    }
 
 
-footer img{
-    width: 5vw;
-}
+    footer img {
+        width: 5vw;
+    }
 
 
 }
