@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
 }
 
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
-    
+
 }
 
 header {
@@ -18,16 +18,16 @@ header {
     align-items: center;
     background-color: #fa0606;
     height: 22vh;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gold;
 }
 
-header img{
+header img {
     width: 10vw;
 }
 
 nav {
-    background-color:  #fc6c0d;
+    background-color: #fc6c0d;
     padding: 0.5em;
     text-align: center;
 }
@@ -42,7 +42,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
@@ -52,9 +52,15 @@ nav a {
     font-weight: bold;
 }
 
+#quemSomos {
+    border-collapse: collapse;
+    border-radius: 0px;
+    overflow: hidden;
+}
+
 /* Fundo do forms*/
 
-main{
+main {
     background-image: url(assets/pexels-thiago-lazaro-2874979.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -62,25 +68,26 @@ main{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    
+
 }
 
 /* Forms */
 
 #form {
     margin-top: 10px;
-    margin-right: auto; 
+    margin-right: auto;
     margin-left: 80px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-#form h2{
+
+#form h2 {
     margin-bottom: 25px;
     color: white;
-    
+
 }
 
 form {
@@ -102,7 +109,7 @@ input[type="submit"] {
     background-color: #fc6c0d;
     color: white;
     cursor: pointer;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
 }
 
@@ -124,55 +131,78 @@ footer {
     height: 12vh;
 }
 
-footer img{
+footer img {
     width: 2vw;
 }
 
-.zap{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0.5em;
+section.traco {
+    border-bottom: 0px solid rgb(240, 236, 236);
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1200px;
+    padding: 50px 0;
+
 }
 
-.insta{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0.5em;
+h3.nome-2chefs {
+    margin: -40px;
 }
 
-a{
+div.redes-sociais {
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+    padding-top: 30px;
+    display: inline-block;
+}
+
+
+a {
     text-decoration: none;
     color: rgb(253, 255, 254);
 }
 
-
-@media screen and (max-width: 768px){
-
-header img{
-    width: 30vw;
-}
-    
-main{
-    display: flex;
-    justify-content: center;
-    height: 70vh;
-    
-}
-#form {
-    
-    margin-right: 10%; 
-    margin-left: 10%;
-    border: 2px solid white;    
+.localizacao {
+    background-image: url(https://img.freepik.com/fotos-premium/resumo-de-fundo-vermelho-circular_8466-2.jpg);
+    background-size: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 20px;
+    /* Ajuste o tamanho da fonte conforme necessário */
+    margin: 10px;
+    text-align: center;
+    /* Alinhe o texto ao centro, se desejar */
 }
 
-footer{
-    padding-bottom: 0;
-}
 
-footer img{
-    width: 5vw;
-}
+
+@media screen and (max-width: 768px) {
+
+    header img {
+        width: 30vw;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        height: 70vh;
+
+    }
+
+    #form {
+
+        margin-right: 10%;
+        margin-left: 10%;
+        border: 2px solid white;
+    }
+
+    footer {
+        padding-bottom: 0;
+    }
+
+    footer img {
+        width: 5vw;
+    }
 
 }
