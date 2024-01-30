@@ -21,6 +21,10 @@ header {
     color: gold;
 }
 
+ul .oculto2{
+    display: none;
+}
+
 header img {
     width: 10vw;
 }
@@ -55,7 +59,9 @@ main {
     background-image: url(assets/fundo\ drinks\ 2.jpg);
     height: 100vh;
     background-size: cover;
-
+    text-align: left;
+    padding: 20px;
+    font-size: 16px;
 }
 
 /* Tabela */
@@ -67,14 +73,8 @@ body {
 
 }
 
-main {
-    text-align: left;
-    padding: 20px;
-    font-size: 16px;
-}
-
 .tabela {
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 60px;
     color: #df0000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -84,13 +84,13 @@ main {
 .tabela h2 {
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 
 .tabela p {
     color: midnightblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 table {
@@ -101,8 +101,7 @@ table {
     overflow: hidden;
 }
 
-th,
-td {
+th, td {
     border: 2px solid #6100006b;
     padding: 8px;
     text-align: left;
@@ -137,7 +136,8 @@ thead tr:hover {
 }
 
 h2 {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    height: 5px;
 }
 
 /* Footer */
@@ -154,27 +154,18 @@ footer {
 
 footer img {
     width: 2vw;
+    margin: 15px;
 }
 
-section.traco {
-    border-bottom: 0px solid rgb(240, 236, 236);
-    margin: 0 auto;
-    text-align: center;
-    max-width: 1000px;
-    padding: 10px 0;
-
-}
-
-h3.nome-2chefs {
+h3 .nome-2chefs {
     margin: -50x;
 }
 
-div.redes-sociais {
-    width: 50px;
-    height: 50px;
-    margin: 10px;
-    padding-top: 30px;
-    display: inline-block;
+div .redes-sociais {
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    
 }
 
 a {
@@ -185,47 +176,68 @@ a {
 
 @media screen and (max-width: 768px) {
 
-    header img {
-        width: 30vw;
-    }
+header img {
+    width: 30vw;
+}
 
-    main {
+header h1{
+    display: none;
+}
 
-        height: 90vh;
-        background-image: url(assets/Fundo\ drinks\ responsivo.png);
-        background-position: right;
-    }
+ul .oculto1{
+    display: none;
+}
 
-    table {
-        margin-top: -16px;
-        width: 90%;
-    }
+ul .oculto2{
+    display: block;
+}
 
-    .tabela {
-        display: flex;
-        flex-direction: column;
-        margin-left: 30px;
-    }
+main {
+    height: 90vh;
+    background-image: url(assets/Fundo\ drinks\ responsivo.png);
+    background-position: right;
+    height: 100vh;
+    padding: 20px;
+    font-size: 16px;
 
-    section {
-        display: flex;
-        justify-content: center;
+}
 
-    }
+table {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: -18px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: rgba(255, 255, 255, 0.452)
+}
 
-    .tabela h2 {
-        margin-block-start: 4em;
-        margin-block-end: 1em;
-    }
+.tabela {
+    margin-left: 0;
+}
+.tabela p, h6{
+    display: none;
+}
 
-    footer {
-        padding: 0;
+section {
+    padding-bottom: 80px;
+
+}
+
+.tabela h2 {
+    margin-block-start: 4em;
+    margin-block-end: 1em;
+    color: #df0000;
+}
+
+footer {
+        padding: 3px;
         height: 12vh;
     }
 
-    footer img {
-        width: 5vw;
-    }
+footer img {
+    width: 8vw;
+
+}
 
 
 }

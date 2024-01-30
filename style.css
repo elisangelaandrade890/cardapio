@@ -53,9 +53,30 @@ nav a {
 }
 
 #quemSomos {
-    border-collapse: collapse;
-    border-radius: 0px;
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    border-color:#de6d2f; 
+    border-radius: 0%;
+    background-color: #de6d2f;
+    color: white;
+}
+#quemSomos h2, h4{
+    text-align: center;
+
+}
+
+#quemSomos img{
+    border-color: #de6d2f; 
+    border-radius: 6%;
+    width: 30%;
+    margin-left: 3rem;
+    padding: 5px;
+}
+#quemSomos div{
+    margin-right: 3rem;
+    margin-left: 1rem;
 }
 
 /* Fundo do forms*/
@@ -125,35 +146,24 @@ footer {
     background-color: #fa0606;
     color: white;
     text-align: center;
-    padding-bottom: 1em;
+    padding: 1em;
     bottom: 0;
-    width: 100%;
-    height: 12vh;
 }
 
 footer img {
     width: 2vw;
+    margin: 15px;
 }
 
-section.traco {
-    border-bottom: 0px solid rgb(240, 236, 236);
-    margin: 0 auto;
-    text-align: center;
-    max-width: 1200px;
-    padding: 50px 0;
-
+h3 .nome-2chefs {
+    margin: -50x;
 }
 
-h3.nome-2chefs {
-    margin: -40px;
-}
-
-div.redes-sociais {
-    width: 50px;
-    height: 50px;
-    margin: 30px;
-    padding-top: 30px;
-    display: inline-block;
+div .redes-sociais {
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    
 }
 
 
@@ -182,13 +192,32 @@ a {
     header img {
         width: 30vw;
     }
+    
+    header h1{
+        display: none;
+    }
+        
+    ul .oculto1{
+        display: none;
+    }
+    
+    ul .oculto2{
+        display: block;
+    }
 
     main {
         display: flex;
         justify-content: center;
         height: 70vh;
-
     }
+#quemSomos img{
+    display: none;
+}
+#quemSomos div{
+    margin-top: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
 
     #form {
 
@@ -202,7 +231,22 @@ a {
     }
 
     footer img {
-        width: 5vw;
+        width: 8vw;
     }
+
+
+.localizacao{
+    display: none;
+}
+table {
+    display: none;
+}
+
+#quemSomos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 }
